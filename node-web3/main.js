@@ -1,6 +1,8 @@
-require("dotenv").config();
+import * as dotenv from 'dotenv';
+dotenv.config()
 
 import Web3 from "web3";
+
 const web3 = new Web3(`http://${process.env.BLOCKCHAIN_IP_ADDRESS}:8545`);
 
 const Main = async () => {

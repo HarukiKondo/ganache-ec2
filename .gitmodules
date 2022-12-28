@@ -1,3 +1,6 @@
 [submodule "ganache"]
 	path = ganache
 	url = https://github.com/trufflesuite/ganache.git
+[submodule "truffle"]
+	path = truffle
+	url = https://github.com/trufflesuite/truffle

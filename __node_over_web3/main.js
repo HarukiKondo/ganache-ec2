@@ -12,7 +12,7 @@ const Main = async () => {
     .getBalance(accounts[0])
     .then((b) => web3.utils.fromWei(b, "ether"));
 
-  console.log("accountOneBalance", accountOneBalance);
+  console.log("Saldo account: ", accountOneBalance);
 };
 
 Main();

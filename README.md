@@ -4,6 +4,8 @@ Ambiente simulato di una blockchain Ethereum via Ganache. Questa repository è u
 ### .env
 `BLOCKCHAIN_IP_ADDRESS` deve puntare all'IP pubblico dell'istanza di EC2, definita all'avvio dell'istanza EC2.
 
+![arch](https://i.gyazo.com/9f9c2ec5c8b4f297f4fb1793ab9340fc.png)
+
 # Creazione ed utilizzo dell'istanza
 
 0. Connessione SSH su EC2

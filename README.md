@@ -10,8 +10,8 @@ Ambiente simulato di una blockchain Ethereum via Ganache. Questa repository è u
 
 0. Connessione SSH su EC2
     - `cd ~/ganache-ec2`
-    - `chmod 400 [key].pem`
-    - `ssh -i "[key].pem" ubuntu@ec2-3-71-206-133.eu-central-1.compute.amazonaws.com`
+    - `chmod 400 ganache-ec2.pem`
+    - `ssh -i "ganache-ec2.pem" ubuntu@ec2-3-71-12-237.eu-central-1.compute.amazonaws.com`
 1. Creazione istanza EC2 
     - `t2.micro`
         - Intel Xeon (3,3 GHz)

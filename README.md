@@ -1,4 +1,4 @@
-# Playground Ganache su AWS EC2 & Docker
+# Ganache su AWS EC2 & Docker
 Ambiente simulato di una blockchain Ethereum via Ganache. Questa repository è un playground per un progetto universitario che ha il fine di deployare la rete su EC2, containerizzarla con Docker e renderla fruibile via Node.
 
 ### .env
@@ -23,7 +23,7 @@ Ambiente simulato di una blockchain Ethereum via Ganache. Questa repository è u
         - `Custom TCP Route [Web3] (:8545)`
 2. Installare Node CLI e il Package Manager `nvm`
 3. Installare `ganache-cli` via `npm -g`
-4. Avviare _docker-less_ della simulazione 
+4. Avvio _docker-less_ della simulazione 
     - `ganache-cli --host "[EC2 Private IPv4]"  --port 8545 --networkId 5777`
 5. **Unto Docker:** [Installazione di Docker su EC2](https://dev.to/nazmifeeroz/build-your-own-remote-private-blockchain-with-aws-and-ganache-part-2-2cie)
 6. `git clone https://github.com/antoniogrv/ganache-ec2.git`
